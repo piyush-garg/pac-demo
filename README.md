@@ -1,3 +1,3 @@
 # pac-demo
 
-a badly written hello world!
+A badly written hello world!
