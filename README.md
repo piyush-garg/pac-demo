@@ -17,3 +17,5 @@ Test with push debug event twice
 test owner
 
 test other event
+
+test event
