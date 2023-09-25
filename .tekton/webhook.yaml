@@ -21,4 +21,5 @@ spec:
               image: registry.access.redhat.com/ubi9/ubi-micro
               script: |
                 echo "hello {{ pull_request_number }}"
+                echo "hello {{ message }}"
                 exit 0
