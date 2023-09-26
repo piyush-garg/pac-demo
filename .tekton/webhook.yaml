@@ -2,7 +2,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  name: webhook-test
+  generateName: webhook-test-
   annotations:
     pipelinesascode.tekton.dev/on-event: "[incoming]"
     pipelinesascode.tekton.dev/on-target-branch: "[main]"
