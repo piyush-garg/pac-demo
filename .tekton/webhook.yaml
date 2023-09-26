@@ -20,6 +20,5 @@ spec:
             - name: noop-task
               image: registry.access.redhat.com/ubi9/ubi-micro
               script: |
-                echo "hello {{ pull_request_number }}"
-                echo "hello {{ message }}"
+                echo "hello {{ repo_url }}"
                 exit 0
