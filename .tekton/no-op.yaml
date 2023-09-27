@@ -36,6 +36,7 @@ spec:
       # Customize this task if you like, or just do a taskRef
       # to one of the hub task.
       - name: noop-task
+        displayName: test display name 
         taskSpec:
           steps:
             - name: noop-task
