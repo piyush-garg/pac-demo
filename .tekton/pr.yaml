@@ -9,7 +9,6 @@ metadata:
     # Fetch the git-clone task from hub, we are able to reference later on it
     # with taskRef and it will automatically be embedded into our pipeline.
     pipelinesascode.tekton.dev/pipeline: "https://github.com/piyush-garg/remote-task/blob/main/pipeline.yaml"
-    pipelinesascode.tekton.dev/task: "https://github.com/piyush-garg/remote-task/blob/main/git-clone.yaml"
 spec:
   params:
     - name: repo-url
