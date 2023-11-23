@@ -30,6 +30,7 @@ spec:
             - name: test-standard-params-value
               image: registry.access.redhat.com/ubi9/ubi-micro
               script: |
+                sleep 30
                 echo "{{ repo_url }}--"
                 echo "{{ source_url }}--"
                 echo "{{ source_branch }}--"
